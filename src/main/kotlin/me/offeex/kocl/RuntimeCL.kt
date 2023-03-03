@@ -1,7 +1,9 @@
-import components.Platform
-import enums.RuntimeMode
+package me.offeex.kocl
+
+import me.offeex.kocl.components.Platform
+import me.offeex.kocl.enums.RuntimeMode
 import org.lwjgl.system.MemoryStack
-import utils.CLUtil
+import me.offeex.kocl.utils.CLUtil
 
 object RuntimeCL : AutoCloseable {
 	val stack = MemoryStack.stackPush()

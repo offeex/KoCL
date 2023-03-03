@@ -1,10 +1,10 @@
-package utils
+package me.offeex.kocl.utils
 
-import RuntimeCL
-import components.Context
-import components.Device
-import components.Program
-import enums.RuntimeMode
+import me.offeex.kocl.RuntimeCL
+import me.offeex.kocl.components.Context
+import me.offeex.kocl.components.Device
+import me.offeex.kocl.components.Program
+import me.offeex.kocl.enums.RuntimeMode
 import org.lwjgl.PointerBuffer
 import org.lwjgl.opencl.CL30.*
 import java.nio.IntBuffer

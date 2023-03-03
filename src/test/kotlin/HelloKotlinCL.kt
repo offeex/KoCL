@@ -1,5 +1,6 @@
-import components.Context
-import enums.RuntimeMode
+import me.offeex.kocl.RuntimeCL
+import me.offeex.kocl.components.Context
+import me.offeex.kocl.enums.RuntimeMode
 import org.lwjgl.BufferUtils
 import org.lwjgl.opencl.CL30.CL_MEM_READ_ONLY
 import org.lwjgl.opencl.CL30.CL_MEM_WRITE_ONLY

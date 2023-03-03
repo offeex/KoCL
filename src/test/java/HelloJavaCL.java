@@ -1,5 +1,7 @@
-import components.*;
-import enums.RuntimeMode;
+
+import me.offeex.kocl.RuntimeCL;
+import me.offeex.kocl.components.*;
+import me.offeex.kocl.enums.RuntimeMode;
 import org.lwjgl.BufferUtils;
 
 import java.nio.ByteBuffer;

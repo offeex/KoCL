@@ -1,8 +1,8 @@
-package components
+package me.offeex.kocl.components
 
-import interfaces.Identifiable
+import me.offeex.kocl.interfaces.Identifiable
 import org.lwjgl.opencl.CL30
-import utils.CLUtil
+import me.offeex.kocl.utils.CLUtil
 
 class Platform(id: Long) : Identifiable(id) {
 	val devices: MutableList<Device> = mutableListOf()

@@ -1,6 +1,6 @@
-package components
+package me.offeex.kocl.components
 
-import interfaces.Identifiable
+import me.offeex.kocl.interfaces.Identifiable
 import org.lwjgl.opencl.CL30
 
 class Device(id: Long) : AutoCloseable, Identifiable(id) {
