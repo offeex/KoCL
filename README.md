@@ -1,19 +1,13 @@
 # KoCL
-Simple OpenCL Wrapper for Java/Kotlin with minimum overhead
+Very lightweight utils & tools for OpenCL written in Kotlin
 
-
-## Why?
-While learning and exploring OpenCL (for Java development) i found myself in the uncomfortable situation:
-
-**There are simply no examples or tutorials from which i can learn more about this wonderful API**
-
-And this is primarily the main issue why a lot of people getting overwhelmed by the complexity of API, and burn out from this.
-
-Which is why i decided to create this lib, so you don't have to worry about bunch of tricky moments and nuances of OpenCL, while maintaining similarity of OpenCL coding approach.
+## What does it do
+- Handles OpenCL errors, that may arise in the process
+- Provides little useful utilities to work with memory
+- Provides useful shorthands for buffer creation
 
 ## Structure
 - [Lib itself](https://github.com/offeex/KoCL/tree/main/src/main/kotlin)
-- [Java example code](https://github.com/offeex/KoCL/blob/main/src/test/java/HelloJavaCL.java)
 - [Kotlin example code](https://github.com/offeex/KoCL/blob/main/src/test/kotlin/HelloKotlinCL.kt)
 
 ## Setup
@@ -28,9 +22,6 @@ repositories {
 **2.**  Add a dependency
 ```gradle
 dependencies {
-    implementation 'com.github.offeex:KoCL:Tag'
+    implementation 'com.github.offeex:KoCL:SNAPSHOT'
 }
 ```
-
-## Warning
-OpenCL 1.1/1.2's events are not supported. I will bring this feature in future.
